@@ -21,7 +21,7 @@ header h1{
 
 }
 header img{
-	border-radius: 300px;
+	border-radius: 100%;
     width: 200px;
     border: 10px solid #2f3e57;
 }
@@ -57,17 +57,23 @@ h3{
 	color: #2f3e57;
 }
 svg {
-  width: 70px;
-  height: 70px;
+  max-width: 100%;
+  height: auto;
+	margin: auto;
 }
 a{
    align-content: center;
-   padding: 150px;
    fill: #2f3e57;
 }
 a:hover {
    fill: #A89B5E;
 }
+
+#links{
+	display: flex;
+	justify-content: center;
+}
+
 
 /*Footer*/
 
@@ -88,7 +94,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.container {
+.content {
 
   flex: 1 0 auto;
 }
